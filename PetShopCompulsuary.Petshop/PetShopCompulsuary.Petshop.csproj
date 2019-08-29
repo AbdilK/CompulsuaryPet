@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="2.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PetShopCompulsuary.Core.Application.Services\PetShopCompulsuary.Core.Application.Services.csproj" />
+    <ProjectReference Include="..\PetShopCompulsuary.Infrastructure.Static.Data\PetShopCompulsuary.Infrastructure.Static.Data.csproj" />
+  </ItemGroup>
+
+</Project>
